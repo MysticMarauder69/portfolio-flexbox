@@ -1,0 +1,63 @@
+h1 {
+  color: purple;
+  font-size: 4rem;
+  display: block;
+}
+h2 {
+  color: #ffd788;
+  font-size: 2rem;
+  display: block;
+}
+h3 {
+  color: violet;
+}
+.contact {
+  color: purple;
+}
+.container2 > * {
+  flex-basis: auto;
+  background-color: #ffd788;
+  border: solid purple 3px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+}
+.container1,
+.container2 {
+  flex: 1;
+}
+#bpara {
+  font-weight: bold;
+}
+.twitch {
+  color: blueviolet;
+}
+
+.container2 {
+  display: inline-flex;
+  gap: 1rem;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+#contact1 {
+  border: solid;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 30px;
+  text-align: center;
+}
+@media (max-width: 680px) {
+  h2,
+  h3 {
+    font-size: 1rem;
+  }
+  #contact1 {
+    margin: auto;
+  }
+  body {
+    text-align: center;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}
